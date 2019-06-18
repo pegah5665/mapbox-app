@@ -13,7 +13,7 @@ export class MapBoxComponent implements OnInit {
 
     /// default settings
     map: mapboxgl.Map;
-    style = 'mapbox://styles/mapbox/outdoors-v9';
+    style = 'mapbox://styles/pegah5665/cjx1c81hv0p4y1cqv0new47vg';
     lat = 35.6892;
     lng = 51.3890;
     message = 'Hello World!';
@@ -113,8 +113,7 @@ export class MapBoxComponent implements OnInit {
     
     }
 
-      
- 
+  
   /// Helpers
 
   removeMarker(marker) {
